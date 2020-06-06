@@ -1,0 +1,70 @@
+body{
+background: #64b5f6 ;
+}
+
+.social-widget
+{
+	position: relative;
+}
+
+li{
+	display: inline-block;
+}
+
+.social-button{
+	width: 180px;
+	padding: 10px;
+	letter-spacing: 1px;
+	margin: 10px;
+}
+
+.facebook
+{
+	background-color: #3B5998;
+	color: white;
+	font-weight: bold;
+}
+
+.google
+{
+	background-color: #dd4b39;
+	color: white;
+	font-weight: bold;
+}
+
+.a{
+	text-decoration: none;
+	color: white;
+}
+
+.social-text
+{
+	width: 120px;
+	border-left: 1px solid rgba(255,255,255,0.5);
+	padding-left: 10px;
+}
+
+.social-button.facebook:hover{
+	background-color: #bbdefb;
+	transition: 0.5s;
+}
+
+
+.social-button.google:hover{
+	background-color: #ef9a9a;
+	transition: 0.5s;
+}
+
+.social-divider {
+	width: 90%;
+    text-align: center;
+    border-bottom: 1px solid #979faf;
+    line-height: 0.1em;
+    margin: -20px 0 20px;
+    margin-left: 5%;
+}
+
+.social-divider span {
+    background: #fff;
+    padding: 0 10px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN IN</title>
+<!--Bootstrap CSS CDN-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+ <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+   
+<!--Bootstrap JS CDN Starts-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Bootstrap JS CDN Ends-->
+</head>
+
+<body>
+<div class="container">
+	<div align="right" style="margin-top: 20px;">
+	<!-- Button trigger modal -->
+		<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#exampleModal">SIGN IN</button>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  		<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="exampleModalLabel">SIGN IN!</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          			<span aria-hidden="true">&times;</span>
+        			</button>
+      			</div>
+      			<div class="modal-body">
+        		<!--Social Media Sign In Button Start-->
+        			<div class="row">
+       					<div class="col s6 m6" align="center">
+       						<div class="social-widget">
+       							<a href="#">
+       							<ul class="social-button facebook">
+       								<li><i class="fab fa-facebook-f"></i></li>
+       								<li class="social-text">Facebook</li></ul>
+       							</a>
+       						</div>
+       					</div>
+       					<div class="col s6 m6" align="center">
+       						<div class="social-widget">
+       							<a href="#">
+       							<ul class="social-button google">
+       								<li><i class="fab fa-google"></i></li>
+       								<li class="social-text">Google</li></ul>
+       							</a>
+       						</div>
+      					</div>
+  					</div>
+  				<!--Social Media Sign In Button End-->
+  
+  				<!--'OR' Divider Start-->
+  				<div class="row">
+  					<div class="col s12 m12">
+						<div class="social-divider" style="margin-top: 10px;  margin-bottom: 30px;">
+							<span> or </span>
+						</div>
+					</div>
+				</div>
+				<!--'OR' Divider End-->
+
+				<!--Sign In Form Start-->
+				<form>
+  					<div class="form-group">
+					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  					</div>
+					<div class="form-group">
+    					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  					</div>
+  					<div class="row">
+		 	 			<div class="col s6">      	
+  							<button type="submit" class="btn btn-primary" style="padding-left: 30px; padding-right: 30px;">Login</button></div>
+  						<div class="col s6" align="right">      
+  							<a href="#">Forgot Your Password?</a>
+						</div>
+					</div>
+				</form>
+				<!--Sign In Form End-->
+    		</div>
+     
+     		<div class="modal-footer">
+      			<div class="row">
+      				<div class="col s12 m12"> 
+        				<p style="background-color: #bdbdbd; display: inline-block; padding: 4px;">Don't Have An Account Yet ?</p>
+       					<button type="button" class="btn btn-outline-secondary" style="margin-right: 20px;">SIGNUP!</button>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+	</div>
+</body>
+</html>
